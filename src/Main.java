@@ -26,5 +26,18 @@ public class Main {
         if ((topScore > 90) || (secondTopScore >= 90)) {
             System.out.println("Either or both of the conditions are true. X2");
         }
+
+        // 3. Logical NOT operator - "!" - Tests the alternative value.
+        boolean isAlien = false;
+
+        // Checks whether something is an alien, "isAlien" should be "true" to satisfy the condition.
+        if (isAlien) {
+            System.out.println("It's an alien!");
+        }
+
+        // Checks whether something is NOT an alien, "isAlien" should be "false" to satisfy the condition.
+        if(!isAlien) {
+            System.out.println("Don't worry, not an alien.");
+        }
     }
 }
